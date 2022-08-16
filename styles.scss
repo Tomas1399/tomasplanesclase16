@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #f2f2f2;
+}
+
+/* * ============================== */
+/* * ============ PAGINAS =========== */
+/* * ============================== */
+
+
+@import "hyf";
+@import "variables";
+@import "contacto";
+@import "nosotros";
+
+
+
+

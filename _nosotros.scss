@@ -1,0 +1,15 @@
+@import "variables";
+
+/* nuevas modificaciones en nosotros */
+
+.Nosotros-texto-h3 {
+    text-align: center;
+    font-size: 40px;
+    color: map-get($map: $palette, $key: 'secundario');
+}
+
+.titulo-habana2 {
+    color: map-get($map: $palette, $key: 'cuarto');
+}
+
+/* nuevas modificaciones en nosotros */
